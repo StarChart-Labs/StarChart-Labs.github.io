@@ -1,3 +1,4 @@
-# StarChart-Labs.github.io
+![StarChart Labs Logo](https://raw.githubusercontent.com/StarChart-Labs/branding/master/starchart-labs/logo.png)
 
-GitHub Pages repository for StarChart Labs
+
+Making open source development, contribution, and collaboration easier - one tool, discussion, or pull request at a time
