@@ -1,0 +1,109 @@
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+    margin: 0;
+    color: #1975a3;
+}
+h2 {
+    margin: 0;
+    color: #1975a3;
+}
+p {
+    margin: 5px 15px 30px 0;
+    font-size: 1.1rem;
+}
+#header {
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+#header img {
+    max-height: 80px;
+}
+
+#content {
+     background-color: white;
+     width: 80%;
+     margin: 0px auto;
+     box-shadow: 0px 5px 15px rgba(0, 25, 80, 0.4);
+}
+#splash {
+    padding: 100px 0;
+    background-color: #04212d;
+    background-image: url('../images/splash-background.png');
+    background-size: cover;
+}
+#splash h1 {
+    font-size: 3rem;
+    margin: 0px 20%;
+}
+#splash p {
+    margin: 20px 20%;
+    font-size: 1.35rem;
+    color: white;
+}
+
+#more-content {
+    padding: 30px;
+}
+
+#footer {
+    margin: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1750px) {
+    #splash h1 {
+        margin: 0px 10%;
+    }
+    #splash p {
+        margin: 20px 10%;
+    }
+}
+
+@media (max-width: 1300px) {
+    #content,
+    #header {
+        width: 90%;
+    }
+    #splash h1 {
+        font-size: 2.5rem;
+    }
+    #splash p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #content,
+    #header {
+        width: 100%;
+    }
+}
+
+/*
+ From "GitHub Corners":
+    http://tholman.com/github-corners/
+ by Tim Holman
+*/
+.github-corner:hover .octo-arm {
+    animation:octocat-wave 560ms ease-in-out
+}
+@keyframes octocat-wave {
+    0%,100% { transform:rotate(0) }
+    20%,60% { transform:rotate(-25deg) }
+    40%,80% { transform:rotate(10deg)}
+}
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation:none
+    }
+    .github-corner .octo-arm {
+        animation:octocat-wave 560ms ease-in-out
+    }
+}
