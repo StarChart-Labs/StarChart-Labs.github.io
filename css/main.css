@@ -57,6 +57,35 @@ p {
     font-size: 0.8rem;
 }
 
+@media (max-width: 1750px) {
+    #splash h1 {
+        margin: 0px 10%;
+    }
+    #splash p {
+        margin: 20px 10%;
+    }
+}
+
+@media (max-width: 1300px) {
+    #content,
+    #header {
+        width: 90%;
+    }
+    #splash h1 {
+        font-size: 2.5rem;
+    }
+    #splash p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #content,
+    #header {
+        width: 100%;
+    }
+}
+
 /*
  From "GitHub Corners":
     http://tholman.com/github-corners/
