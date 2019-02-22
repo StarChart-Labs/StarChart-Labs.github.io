@@ -5,17 +5,29 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 h1 {
-    margin: 0;
+    margin: 20px 0 0 0;
     color: #1975a3;
 }
 h2 {
-    margin: 0;
+    margin: 0 0 0 10px;
     color: #1975a3;
+}
+h3 {
+    margin: 0;
+    color: #0c577c;
 }
 p {
     margin: 5px 15px 30px 0;
     font-size: 1.1rem;
 }
+
+a {
+    color: #288dbf;
+}
+a:visited {
+    color: #0c577c;
+}
+
 #header {
     width: 80%;
     margin: 0px auto;
@@ -48,7 +60,7 @@ p {
 }
 
 #more-content {
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 #footer {
@@ -56,6 +68,30 @@ p {
     text-align: center;
     font-size: 0.8rem;
 }
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px;
+    min-width: 500px;
+    max-width: 650px;
+    display: flex;
+    align-items: flex-start;
+}
+.project img {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 20px;
+}
+.project p {
+    margin-bottom: 5px;
+}
+
 
 @media (max-width: 1750px) {
     #splash h1 {
@@ -83,6 +119,10 @@ p {
     #content,
     #header {
         width: 100%;
+    }
+
+    .project {
+        min-width: 0;
     }
 }
 
